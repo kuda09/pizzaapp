@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza App</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <h1>Pizza App</h1>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <ul class="listOfPizzas">
+                    <li data-name="margherita" data-img="margherita.jpg" data-likes="20" data-state="active">Margherita
+                    </li>
+                    <li data-name="hawaii" data-img="hawaii.png" data-likes="10">Hawaii</li>
+                    <li data-name="pepperoni" data-img="pepperoni.jpeg" data-likes="5">Pepperoni</li>
+                </ul>
+
+            </div>
+
+            <div class="col-md-8">
+
+                <div class="viewPizzaContainer" data-state="hidden">
+
+                </div>
+
+                <div class="editPizza" data-state="hidden">
+                    <label for="Name">Name</label>
+                    <input type="text" class="form-control" name="name" id="Name">
+                    <label for="Image">Image</label>
+                    <input type="text" class="form-control" name="image" id="Image">
+                    <label for="Likes">Likes</label>
+                    <input type="text" class="form-control" name="likes" id="Likes">
+                    <br><br>
+                    <button class="change btn btn-primary">Change</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

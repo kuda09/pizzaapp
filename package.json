@@ -1,0 +1,19 @@
+{
+  "name": "pizzaapp",
+  "version": "1.0.0",
+  "description": "A pizza app application for Cap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pizza",
+    "app"
+  ],
+  "author": "Kudakwashe Nyamainashe",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  }
+}

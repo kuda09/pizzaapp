@@ -1,0 +1,74 @@
+.listOfPizzas {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+}
+
+.listOfPizzas li {
+
+    padding: 10px 5px;
+    background-color: #cccccc;
+    border-bottom: 1px solid #e7e7e7;
+    cursor: pointer;
+}
+
+.listOfPizzas li:hover {
+
+    background-color: #c3c1c1;
+}
+
+.listOfPizzas li[data-state=active] {
+
+    background-color: #c3c1c1;
+}
+
+.viewPizzaContainer {
+
+    padding: 10px;
+    text-align: center;
+}
+
+.viewPizzaContainer[data-state=hidden]{
+
+    display: none;
+}
+
+.viewPizzaContainer[data-state=visible]{
+
+    display: block;
+}
+
+.viewPizzaContainer h2 {
+
+    text-transform: capitalize;
+}
+
+
+.viewPizzaContainer img {
+
+    max-width: 250px;
+    max-height: 250px;
+    margin-bottom: 40px;
+}
+
+
+.editPizza label {
+
+    margin: 10px 0;
+}
+
+.editPizza[data-state=hidden]{
+
+    display: none;
+}
+
+.editPizza[data-state=visible]{
+
+    display: block;
+}
+
+
+
+
